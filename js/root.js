@@ -48,7 +48,6 @@ async function createCard() {
 		.value();
 
 	main.map(user => {
-		console.log(user);
 		img.src = `${IMAGE_URL}${user.username}`;
 		h4.innerHTML = user.name;
 		p.innerHTML = user.body;
